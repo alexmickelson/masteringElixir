@@ -39,6 +39,7 @@ defmodule ElixirDrip.Mixfile do
       {:postgrex, ">= 0.0.0"},
       {:ecto, "~> 2.1"},
       {:ksuid, "~> 0.1.2"},
+      {:credo, "~> 0.3", only: [:dev, :test], runtime: false},
     ]
   end
 
